@@ -1,6 +1,6 @@
 //Array
-let veggies = ['carrot', 'onion', 'beetroot'];
-console.log(veggies);
+let veggies0 = ['carrot', 'onion', 'beetroot'];
+console.log(veggies0);
 
 
 // object and function inside an array
@@ -43,3 +43,11 @@ let mat = [
 ];
 console.log(mat);
 console.log(mat[0][2]);
+
+// For printing each elements
+console.log("Printing the elements in array : ");
+for(let i = 0; i<mat.length; i++){
+    for(let j = 0; j<mat[i].length; j++){
+        console.log(mat[i][j]);
+    }
+}
