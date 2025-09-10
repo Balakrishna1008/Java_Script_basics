@@ -32,3 +32,35 @@ Uname.name = "Krish B"
 console.log(Uname.name);
 delete Uname.name;
 console.log(Uname.name);
+
+
+let user = {
+    name : 'krish',
+    age : 23
+};
+
+console.log('name' in user);
+
+for(a in user){
+    console.log(a,user[a]);
+}
+
+// In constants in objects, the address cannot be changed, but the values for the keys inside the object can be changed
+
+const x ={
+    name : "Krish",
+    age : 23
+};
+
+x.age = 24;
+console.log(x);
+
+// Practice Qs
+let a = {
+    name : 'Krish',
+    age : 23
+};
+b=a;
+console.log(a);
+a={};
+console.log(b,a);
