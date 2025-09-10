@@ -18,3 +18,17 @@ let car = {
 car['Model'] = 2024;
 car.price = 18;
 console.log(car.onroadPrice(22));
+
+
+
+// Practice Qs
+
+let Uname = {
+    name : "Krish"
+}
+
+console.log(Uname.name);
+Uname.name = "Krish B"
+console.log(Uname.name);
+delete Uname.name;
+console.log(Uname.name);
