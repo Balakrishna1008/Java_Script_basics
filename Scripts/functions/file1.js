@@ -20,8 +20,11 @@ function OddOrEven(num){
     }
     else{
         return 'Even number';
-        console.log("After return");
+        console.log("After return"); // unreachable code
     }
 }
 
 console.log(OddOrEven(23));
+
+let oddEven = OddOrEven;
+console.log(oddEven);
