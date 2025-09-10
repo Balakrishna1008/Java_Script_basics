@@ -1,4 +1,4 @@
-/* //Array
+//Array
 let veggies = ['carrot', 'onion', 'beetroot'];
 console.log(veggies);
 
@@ -7,7 +7,7 @@ console.log(veggies);
 let veggies1 = ['carrot', {name : 'krish', age : 23}, function add(a,b){return a+b}, 'onion', 'beetroot'];
 
 console.log(veggies1[1]);
-console.log(veggies1[2](1,2)); */
+console.log(veggies1[2](1,2));
 
 
 // Adding elements
