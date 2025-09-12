@@ -1,5 +1,6 @@
 //Array
 let veggies0 = ['carrot', 'onion', 'beetroot'];
+console.log(typeof veggies0);
 console.log(veggies0);
 
 
